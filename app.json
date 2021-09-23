@@ -1,5 +1,5 @@
 {
-      "name": "Gabi Braun Robot",
+      "name": "Batee",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,8 +8,8 @@
          "manager",
          "Gabi"
       ],   
-  "logo":    "https://telegra.ph/file/a612794ea868bb4fbcc5e.jpg",
- "repository": "https://github.com/Falco-Grice/GabiBraunRobot",
+  "logo":    "https://telegra.ph/file/7f84a10d174c25b032fed.jpg",
+ "repository": "https://github.com/GunxProject/Batee",
 
 "addons": [
       {
