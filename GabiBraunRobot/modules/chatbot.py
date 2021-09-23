@@ -38,7 +38,7 @@ def add_chat(update: Update, context: CallbackContext):
         ses_id = str(ses.id)
         expires = str(ses.expires)
         sql.set_ses(chat.id, ses_id, expires)
-        msg.reply_text("AI successfully enabled for this chat!")
+        msg.reply_text("Chatbot Telah Aktif!")
         message = (
             f"<b>{html.escape(chat.title)}:</b>\n"
             f"#AI_ENABLED\n"
@@ -46,7 +46,7 @@ def add_chat(update: Update, context: CallbackContext):
         )
         return message
     else:
-        msg.reply_text("AI is already enabled for this chat!")
+        msg.reply_text("Chatbot Telah Aktif!")
         return ""
 
 
@@ -63,7 +63,7 @@ def remove_chat(update: Update, context: CallbackContext):
         return ""
     else:
         sql.rem_chat(chat.id)
-        msg.reply_text("AI disabled successfully!")
+        msg.reply_text("Chatbot Dinonaktifkan!")
         message = (
             f"<b>{html.escape(chat.title)}:</b>\n"
             f"#AI_DISABLED\n"
@@ -74,7 +74,7 @@ def remove_chat(update: Update, context: CallbackContext):
 
 def check_message(context: CallbackContext, message):
     reply_msg = message.reply_to_message
-    if message.text.lower() == "gabi":
+    if message.text.lower() == "Batee":
         return True
     if reply_msg:
         if reply_msg.from_user.id == context.bot.get_me().id:
