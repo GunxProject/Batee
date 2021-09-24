@@ -16,7 +16,10 @@ TRUTH = (
     "When’s the last time you lied to your parents and why?",
     "Have you ever lied about your age to participate in a contest?",
     "Have you ever been caught checking someone out?",
-  
+    "Spill nama gebetan kamu sekarang",
+    "Udah move on belum dari mantan",
+    "Siapa mantan yang paling lama pacaran",
+    "Apa kenangan bersama mantan yang paling indah",
 )
 
 DARE = (
@@ -70,4 +73,7 @@ DARE = (
     "Send a screenshot of your gallery.",
     "Set your crush’s picture as your dp.",
     "Suggest me more dares.",
+    "Telfon mantan bilang AKU BELUM BISA MOVE ON DARI KAMU",
+    "Kirim pap muka tiba tiba ke orang yang ada di kontak WA",
+    "SW in foto sama mantan",
 )
