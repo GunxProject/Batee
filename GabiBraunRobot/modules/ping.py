@@ -102,8 +102,8 @@ def pingall(update: Update, context: CallbackContext):
         reply_msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True)
 
 
-PING_HANDLER = EnableAbleCommandHandler("ping", ping)
-PINGALL_HANDLER = EnableAbleCommandHandler("pingall", pingall)
+PING_HANDLER = CommandHandler("ping", ping)
+PINGALL_HANDLER = CommandHandler("pingall", pingall)
 
 dispatcher.add_handler(PING_HANDLER)
 dispatcher.add_handler(PINGALL_HANDLER)
