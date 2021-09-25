@@ -62,7 +62,7 @@ Silahkan lah lanjut pilih tombolnya sesuai sukamu.. pahamkan ? Kalau gak paham d
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ Tambahkan Ke Grup ➕️",url="t.me/Gabi_Braun_Robot?startgroup=true"),
+            text="➕️ Tambahkan Ke Grup ➕️",url="t.me/Bateerobot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(
@@ -327,12 +327,12 @@ def gabi_about_callback(update, context):
     query = update.callback_query
     if query.data == "gabi_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Batee*, a powerful group management bot built to help you manage your group easily.
-                 \n❍ I can restrict users.
-                 \n❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 \n❍ I have an advanced anti-flood system.
-                 \n❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 \n❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+            text=""" ℹ️ Goar hu *Batee*, sebuah bot untuk membantu mengatur grup anda.
+                 \n❍ Au Boi restrict users.
+                 \n❍ Au Boi greet users with customizable welcome messages and even set a group's rules.
+                 \n❍ Au Boi an advanced anti-flood system.
+                 \n❍ Au Boi warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+                 \n❍ Au have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  \n❍ I check for admins' permissions before executing any command and more stuffs
                  \n\n_shasa's licensed under the GNU General Public License v3.0_
                  \nHere is the [💾Repository]().
