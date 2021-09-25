@@ -3,7 +3,7 @@ from typing import List
 
 import requests
 from telegram import ParseMode, Update
-from telegram.ext import CallbackContext, run_async
+from telegram.ext import CommandHandler, CallbackContext, run_async
 
 from GabiBraunRobot import StartTime, dispatcher
 from GabiBraunRobot.modules.helper_funcs.chat_status import sudo_plus
