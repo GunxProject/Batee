@@ -4,7 +4,7 @@ import GabiBraunRobot.modules.truth_and_dare_string as truth_and_dare_string
 from GabiBraunRobot import dispatcher
 from telegram import ParseMode, Update, Bot
 from GabiBraunRobot.modules.disable import DisableAbleCommandHandler
-from telegram.ext import CallbackContext, run_async
+from telegram.ext import CallbackContext, run_async, CommandHandler
 
 @run_async
 def truth(update: Update, context: CallbackContext):
