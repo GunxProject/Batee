@@ -53,8 +53,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Horas bo...  Goar hu Batee [👋](https://telegra.ph/file/7f84a10d174c25b032fed.jpg)
-Saonari Tinggal di Tao Toba do. Di son ro au naeng, akh dang hu boto be..  Alana Dalle do...wkwkwk... 
+`Horas bo...  Goar hu Batee` [👋](https://telegra.ph/file/7f84a10d174c25b032fed.jpg)
+`Saonari Tinggal di Tao Toba do. Di son ro au naeng, akh dang hu boto be..  Alana Dalle do...wkwkwk... 
 
 Silahkan lah lanjut pilih tombolnya sesuai sukamu.. pahamkan ? Kalau gak paham dahlah tenggelamkan ajalah dirimu.`   
 """
